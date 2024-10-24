@@ -80,13 +80,14 @@ const Navbar = () => {
                     to="/"
                     fontSize="3xl"
                     fontFamily="'Libre+Baskerville', system-ui"
+                    fontWeight="400"
                     color="#000000"
                     letterSpacing="wider"
                     // _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#000000' }}
                 >
                     Ava Castillo
                 </Heading>
-                <div class="ballet-icon"></div>
+                <div class="dance-icon"></div>
                 <Spacer />
                 <IconButton
                     aria-label={isOpen ? 'Close Menu' : 'Open Menu'}
@@ -96,7 +97,7 @@ const Navbar = () => {
                                 whileHover={{ scale: 1.2, color: 'rgba(255, 215, 0, 1)' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#42004b' }}
+                                style={{ color: '#972626' }}
                             >
                                 <CloseIcon />
                             </motion.div>
@@ -105,7 +106,7 @@ const Navbar = () => {
                                 whileHover={{ scale: 1.2, color: 'rgba(255, 215, 0, 1)' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#42004b' }}
+                                style={{ color: '#972626' }}
                             >
                                 <CgMenuGridO />
                             </motion.div>
@@ -136,9 +137,9 @@ const Navbar = () => {
                         to="/"
                         fontSize="lg"
                         color="#000000"
-                        fontWeight="extrabold"
+                        fontWeight="medium"
                         position="relative"
-                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#42004b' }}
+                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#972626' }}
                         _after={{
                             content: '""',
                             position: 'absolute',
@@ -157,9 +158,9 @@ const Navbar = () => {
                         to="/login"
                         fontSize="lg"
                         color="#000000"
-                        fontWeight="extrabold"
+                        fontWeight="medium"
                         position="relative"
-                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#42004b' }}
+                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#972626' }}
                         _after={{
                             content: '""',
                             position: 'absolute',
@@ -178,9 +179,9 @@ const Navbar = () => {
                         to="/signup"
                         fontSize="lg"
                         color="#000000"
-                        fontWeight="extrabold"
+                        fontWeight="medium"
                         position="relative"
-                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#42004b' }}
+                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#972626' }}
                         _after={{
                             content: '""',
                             position: 'absolute',
@@ -199,9 +200,9 @@ const Navbar = () => {
                         to="/signup"
                         fontSize="lg"
                         color="#000000"
-                        fontWeight="extrabold"
+                        fontWeight="medium"
                         position="relative"
-                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#42004b' }}
+                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#972626' }}
                         _after={{
                             content: '""',
                             position: 'absolute',
@@ -215,14 +216,14 @@ const Navbar = () => {
                     >
                         ACADEMICS
                     </Link>
-                    <Link
+                    {/* <Link
                         as={RouterLink}
                         to="/signup"
                         fontSize="lg"
                         color="#000000"
-                        fontWeight="extrabold"
+                        fontWeight="medium"
                         position="relative"
-                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#42004b' }}
+                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#972626' }}
                         _after={{
                             content: '""',
                             position: 'absolute',
@@ -235,7 +236,7 @@ const Navbar = () => {
                         }}
                     >
                         STAT TRACKER
-                    </Link>
+                    </Link> */}
                 </Flex>
 
                 {isOpen && (
@@ -285,8 +286,8 @@ const Navbar = () => {
                                         to="/"
                                         fontSize="lg"
                                         color="#000000"
-                                        fontWeight="extrabold"
-                                        _hover={{ color: '#42004b' }}
+                                        fontWeight="medium"
+                                        _hover={{ color: '#972626' }}
                                     >
                                         PLAYER BIO
                                     </Link>
@@ -295,8 +296,8 @@ const Navbar = () => {
                                         to="/login"
                                         fontSize="lg"
                                         color="#000000"
-                                        fontWeight="extrabold"
-                                        _hover={{ color: '#42004b' }}
+                                        fontWeight="medium"
+                                        _hover={{ color: '#972626' }}
                                     >
                                         HOOPS FILM
                                     </Link>
@@ -305,8 +306,8 @@ const Navbar = () => {
                                         to="/signup"
                                         fontSize="lg"
                                         color="#000000"
-                                        fontWeight="extrabold"
-                                        _hover={{ color: '#42004b' }}
+                                        fontWeight="medium"
+                                        _hover={{ color: '#972626' }}
                                     >
                                         PLAYER CARDS
                                     </Link>
@@ -315,21 +316,21 @@ const Navbar = () => {
                                         to="/signup"
                                         fontSize="lg"
                                         color="#000000"
-                                        fontWeight="extrabold"
-                                        _hover={{ color: '#42004b' }}
+                                        fontWeight="medium"
+                                        _hover={{ color: '#972626' }}
                                     >
                                         ACADEMICS
                                     </Link>
-                                    <Link
+                                    {/* <Link
                                         as={RouterLink}
                                         to="/signup"
                                         fontSize="lg"
                                         color="#000000"
-                                        fontWeight="extrabold"
-                                        _hover={{ color: '#42004b' }}
+                                        fontWeight="medium"
+                                        _hover={{ color: '#972626' }}
                                     >
                                         STAT TRACKER
-                                    </Link>
+                                    </Link> */}
                                 </Flex>
                             </motion.div>
                         </Box>

@@ -34,8 +34,8 @@ function Card({ frontImg, bio, flipSound }) {
             bgSize="cover"
             bgPosition="center"
             borderRadius="12px"
-          borderColor="#000000"
-          borderWidth="6px"
+          borderColor="#972626"
+          borderWidth="4px"
             w="100%"
             h="100%"
             display="flex"
@@ -52,8 +52,8 @@ function Card({ frontImg, bio, flipSound }) {
           w="100%"
           h="100%"
           borderRadius="12px"
-          borderColor="#000000"
-          borderWidth="6px"
+          borderColor="#972626"
+          borderWidth="4px"
           display="flex"
           flexDirection="column"
           alignItems="center"
@@ -65,7 +65,7 @@ function Card({ frontImg, bio, flipSound }) {
           {/* <Text fontSize="2xl" fontWeight="bold" color="#ebebeb" fontFamily="'Libre+Baskerville', system-ui">
             {name}
           </Text> */}
-          <Text mt={4} color="#42004b" fontFamily="'Libre+Baskerville', system-ui" fontSize="2xl" fontWeight="400" textAlign="center">
+          <Text mt={4} color="#000000" fontFamily="'Libre+Baskerville', system-ui" fontSize="2xl" fontWeight="400" textAlign="center">
           {bio}
           </Text>
         </Box>
@@ -139,7 +139,7 @@ function PlayerCards() {
         Dance Cards    
       </Text>
       <Text fontSize="xl" fontWeight="400" color="#ebebeb" fontFamily="'Libre+Baskerville', system-ui">
-        Click on a card to see dance card info
+        Click on a card to read more about Ava
         </Text>
 
       <SimpleGrid

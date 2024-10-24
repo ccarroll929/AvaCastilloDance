@@ -3,13 +3,13 @@ import { Box, Text, VStack, SimpleGrid, useBreakpointValue } from '@chakra-ui/re
 
 function VideoCard({ videoSrc, title, description }) {
   return (
-    <Box w="300px" h="400px" mb="10px">
+    <Box w="300px" h="400px">
       <Box
         w="100%"
         h="100%"
         borderRadius="12px"
         borderWidth="4px"
-        borderColor="#000000"
+        borderColor="#972626"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         overflow="hidden"
         bgColor="#000000"
@@ -82,8 +82,8 @@ function HoopsFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="3xl" fontWeight="medium" color="#ebebeb" fontFamily="'Roboto', system-ui">
-        Ava's Dance Videos
+      <Text fontSize="3xl" fontWeight="light" color="#ebebeb" fontFamily="'Libre+Baskerville', system-ui">
+        Dance Videos
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">
         {videos.map((video, index) => (

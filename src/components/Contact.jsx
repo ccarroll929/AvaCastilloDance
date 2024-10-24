@@ -15,17 +15,18 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#ebebeb" fontFamily="'Roboto', system-ui">
-        Contact Us
+      <Heading fontSize="3xl" fontWeight="light" color="#ebebeb" fontFamily="'Libre-Baskerville', system-ui">
+        Contact Ava
       </Heading>
       
       <MotionBox
         w={{ base: '90%', md: '600px' }}
         bgColor="#00B2A9"
+        minW="380px"
         bgImage="linear-gradient(-45deg, #ebebeb 25%, transparent 25%, transparent 50%, #ebebeb 50%, #ebebeb 75%, transparent 75%, transparent)"
         bgSize="1px 1px"
         borderRadius="12px"
-        borderColor="#000000"
+        borderColor="#972626"
         borderWidth="4px"
         boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
         p={6}
@@ -94,7 +95,7 @@ function Contact() {
             borderRadius="8px"
             borderColor="#000000"
             borderWidth="3px"
-            _hover={{ borderColor: '#000000', borderWidth: '5px', bgColor: '#42004b', color: '#ebebeb'  }}
+            _hover={{ borderColor: '#000000', borderWidth: '5px', bgColor: '#972626', color: '#ebebeb'  }}
           >
             Submit
           </Button>

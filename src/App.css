@@ -4,8 +4,8 @@
 
 #root {
   font-family: "Coda", system-ui;
-  background-color: #42004b;
-  color: #303030
+  background-color: #000000;
+  color: #972626
 }
 
 .zoom-in {
@@ -40,12 +40,12 @@
   gap: 2rem; 
 }
 
-.golf-icon {
-  background-image: url("golf-icon2.png");
+.dance-icon {
+  background-image: url("dancer-placeholder.png");
   margin-left: 10px;
   background-repeat: no-repeat;
-  height: 68px;
-  width: 75px;
+  height: 60px;
+  width: 55px;
   
 }
 
